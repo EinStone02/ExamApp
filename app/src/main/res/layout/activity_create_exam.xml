@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/editTextExamTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/exam_title"
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"
+        android:padding="12dp"
+
+    android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/editTextExamDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/exam_description"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:padding="12dp"
+
+    android:autofillHints="none"/>
+
+    <Button
+        android:id="@+id/btnSaveExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_exam"
+        android:minHeight="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="#005A9C"
+    android:textColor="#FFFFFF"  />
+
+</LinearLayout>

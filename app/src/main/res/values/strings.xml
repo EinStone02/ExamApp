@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="exam_title">Exam Title</string>
+    <string name="exam_description">Exam Description</string>
+    <string name="save_exam">Save Exam</string>
+    <string name="create_exam">Create Exam</string>
+    <string name="edit_exam">Edit Exams</string>
+    <string name="view_exams">View Exams</string>
+    <string name="take_exam">Take Exam</string>
+    <string name="submit">Submit</string>
+    <string name="question">Question here</string>
+    <string name="answer1">Answer 1</string>
+    <string name="answer2">Answer 2</string>
+    <string name="title_activity_create_exam">Create Exam</string>
+    <string name="title_activity_edit_exam">Edit Exam</string>
+    <string name="title_activity_view_exams">View Exams</string>
+    <string name="title_activity_take_exam">Take Exam</string>
+    <string name="exam_details_placeholder">Details will appear here when an exam is selected.</string>
+    <string name="details">Details will appear here.</string>
+    <string name="details_for_exam">Details for %1$s</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+</resources>
